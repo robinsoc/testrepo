@@ -11,11 +11,13 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+                echo 'aaaaaaatchoin'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                echo 'Truc interdit: martin est i...'
             }
         }
     }
